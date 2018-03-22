@@ -7,6 +7,10 @@ body{
 	text-rendering: optimizeLegibility;
 }
 
+.boxShadow{
+  box-shadow:0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
 .button{
     
     background-color: royalblue;
@@ -21,14 +25,21 @@ body{
 }
 
 .companyLogo{
-    display: block;
+    align-content: center;
+    margin: 0 40.9%;
+}
+
+.environment{
+    display:flex;
+  justify-content:center;
+  text-align:center;
 }
 
 .nav{
   display: flex; 
   flex-direction: row-reverse;
   justify-content: space-between;
-  padding-bottom:7%;
+  padding-bottom:4%;
  margin-top: 13px;
 }
 
@@ -47,10 +58,6 @@ body{
     padding-bottom: 7%;
 }
 
-h1{
-  text-align:center;
-  padding-bottom: 7%;
-}
 
 .slideShow{
   padding-bottom: 7%;
