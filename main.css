@@ -30,3 +30,13 @@ body{
 .nav a{
     margin: auto
 }
+
+
+.sectionTitle {
+  text-align:center;
+}
+.products {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+}
