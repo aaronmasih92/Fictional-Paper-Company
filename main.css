@@ -40,3 +40,29 @@ body{
   text-align: center;
   justify-content: space-around;
 }
+
+h1{
+  text-align:center;
+  padding-bottom: 7%;
+}
+
+.slideShow{
+  padding-bottom: 7%;
+}
+
+.floatLeft {
+  float: left;
+}
+
+.testimonial {
+  padding-bottom: 6%;
+}
+
+.centerText {
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.paddingTop {
+  padding-top: 3%;
+}
