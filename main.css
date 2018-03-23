@@ -23,6 +23,14 @@ body{
     font-size: 16px;
 
 }
+.button:hover {
+    background-color: whitesmoke; 
+    color: black;
+}
+
+.companyName{
+    text-align: center;
+}
 
 .companyLogo{
     align-content: center;
@@ -33,6 +41,10 @@ body{
     display:flex;
   justify-content:center;
   text-align:center;
+}
+
+h1{
+    padding-bottom: 7%;
 }
 
 .nav{
@@ -68,7 +80,7 @@ body{
 }
 
 .testimonial {
-  padding-bottom: 6%;
+  padding-bottom: 7%;
 }
 
 .centerText {
