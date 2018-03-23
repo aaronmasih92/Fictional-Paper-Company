@@ -41,6 +41,7 @@ body{
     display:flex;
   justify-content:center;
   text-align:center;
+    padding-bottom: 7%;
 }
 
 h1{
@@ -101,3 +102,27 @@ h1{
  .mySlides{
    animation: fadeIn 8s infinite;
  }
+
+footer{
+    display: flex; 
+  flex-direction: row;
+  justify-content: space-around;
+  padding-bottom:4%;
+ margin-top: 13px;
+}
+.bottomButtons{
+    
+    background-color: royalblue;
+    border: 2px solid whitesmoke;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+
+        
+}
+.bottomButtons:hover {
+    background-color: whitesmoke; 
+    color: black;
+}
