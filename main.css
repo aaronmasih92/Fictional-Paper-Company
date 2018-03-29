@@ -1,20 +1,22 @@
+* { margin: 0; padding: 0; }
 body{
 	font-family: 'Source Sans Pro', sans-serif;
 	color: black;
     margin: 0;
     padding: 0;
-	background-color: floralwhite;
 	text-rendering: optimizeLegibility;
+    background-color: whitesmoke;
 }
 
 .boxShadow{
   box-shadow:0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    align-content: center;
 }
 
 .button{
     
-    background-color: royalblue;
-    border: 2px solid whitesmoke;
+font-family: 'Playfair Display SC', serif;
+    border: 1.5px solid black;
     color: black;
     padding: 15px 32px;
     text-align: center;
@@ -24,27 +26,43 @@ body{
 
 }
 .button:hover {
-    background-color: whitesmoke; 
-    color: black;
+    background-color: lightblue; 
+    color: white;
+    transition: background-color .4s, color .4s;
 }
 
 .companyName{
     text-align: center;
+    font-family: 'Playfair Display SC', serif;
+        text-shadow: 1.5px 1.5px 1.5px black;
+
+
 }
 
 .companyLogo{
     align-content: center;
     margin: 0 40.9%;
+
 }
 
 .environment{
-    display:flex;
+    background-color: #BBD9AB;
+    display:block;
   justify-content:center;
   text-align:center;
-    padding-bottom: 7%;
+    padding-bottom: 4%;
+}
+
+.environment h1 {
+padding: 4% 0 4% 0;
+flex: 0 0 100%;
+text-align: center;
 }
 
 h1{
+    font-family: 'Playfair Display SC', serif;
+    font-size: 2em;
+    text-shadow: 1px 1px 1px black;
     padding-bottom: 7%;
 }
 
@@ -64,7 +82,16 @@ h1{
 .sectionTitle {
   text-align:center;
 }
+
+.products h1 {
+    padding: 4% 0 4% 0;
+flex: 0 100%;
+    text-align: center;
+    vertical-align: top;
+}
 .products {
+    background-color: lavender;
+    flex-wrap: wrap;
   display: flex;
   text-align: center;
   justify-content: space-around;
@@ -73,6 +100,9 @@ h1{
 
 
 .slideShow{
+    display: flex;
+    flex-direction: column;
+    align-items: center;      
   padding-bottom: 7%;
 }
 
@@ -82,6 +112,7 @@ h1{
 
 .testimonial {
   padding-bottom: 7%;
+    background-color: #D9ABBB;
 }
 
 .centerText {
@@ -101,29 +132,6 @@ h1{
          
  .mySlides{
    animation: fadeIn 8s infinite;
+   align-content: center;
+     margin-right:;
  }
-
-footer{
-    display: flex; 
-  flex-direction: row;
-  justify-content: space-around;
-  padding-bottom:4%;
- margin-top: 13px;
-}
-.bottomButtons{
-    
-    background-color: royalblue;
-    border: 2px solid whitesmoke;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 16px;
-
-        
-}
-.bottomButtons:hover {
-    background-color: whitesmoke; 
-    color: black;
-}
-
