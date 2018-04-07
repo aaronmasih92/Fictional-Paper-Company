@@ -41,8 +41,7 @@ font-family: 'Playfair Display SC', serif;
 
 .companyLogo{
     align-content: center;
-    margin: 0 40.9%;
-
+    margin-left: 45%;
 }
 
 .environment{
@@ -66,7 +65,7 @@ h1{
     padding-bottom: 7%;
 }
 
-.nav{
+nav{
   display: flex; 
   flex-direction: row-reverse;
   justify-content: space-between;
@@ -74,7 +73,7 @@ h1{
  margin-top: 13px;
 }
 
-.nav a{
+nav a{
     margin: auto
 }
 
