@@ -97,7 +97,10 @@ flex: 0 100%;
   justify-content: space-around;
     padding-bottom: 7%;
 }
+.products h3{
+    font-family: 'IBM Plex Serif', serif;
 
+}
 
 .slideShow{
     display: flex;
@@ -115,6 +118,16 @@ flex: 0 100%;
   padding-bottom: 7%;
     background-color: #D9ABBB;
 
+}
+
+.testimonial p{
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 1.1em;
+}
+
+.testimonial figcaption {
+font-size: .9em;
+    font-weight: 800;
 }
 
 .centerText {
